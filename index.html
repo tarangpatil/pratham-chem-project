@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosmetic Chemical Insights</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+    <!-- Navbar -->
+    <header class="bg-blue-600 text-white py-4 shadow-md">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Cosmetic Chemical Insights</h1>
+        <nav>
+          <a href="#face-washes" class="mx-3 hover:underline">Face Washes</a>
+          <a href="#skin-serums" class="mx-3 hover:underline">Skin Serums</a>
+          <a href="#lipsticks" class="mx-3 hover:underline">Lipsticks</a>
+          <a href="#shampoos" class="mx-3 hover:underline">Shampoos</a>
+          <a href="#sunscreens" class="mx-3 hover:underline">Sunscreens</a>
+          <a href="#body-sprays" class="mx-3 hover:underline">Body Sprays</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-100 py-10 text-center">
+      <div class="container mx-auto flex flex-col items-center">
+        <h2 class="text-4xl font-semibold mb-4">
+          Understand the Chemistry Behind Your Cosmetics
+        </h2>
+        <p class="text-lg text-gray-700">
+          Discover the ingredients, benefits, and risks of everyday cosmetic
+          products.
+        </p>
+      </div>
+    </section>
+
+    <section id="input" class="bg-white flex flex-col items-center py-10">
+      <label for="product-select" class="w-1/6">Select your product:</label>
+      <select
+        name="product"
+        id="product-select"
+        class="w-1/6 px-4 py-2 text-xl rounded bg-blue-200"
+      >
+        <option value="shampoos">Shampoos</option>
+        <option value="face-washes">Face Wash</option>
+        <option value="skin-serums">Skin Serum</option>
+        <option value="lipsticks">Lipsticks</option>
+        <option value="sunscreens">Sunscreens</option>
+        <option value="body-sprays">Body Spray</option>
+      </select>
+    </section>
+
+    <!-- Face Washes -->
+    <section id="face-washes" class="py-10 bg-white product-section">
+      <div class="container mx-auto flex flex-col items-center">
+        <h2 class="text-3xl font-semibold mb-4 text-center">Face Washes</h2>
+        <img
+          src="./facewash.png"
+          alt="Face Washes"
+          class="h-96 mb-4 rounded-lg shadow-md"
+        />
+        <p>
+          <strong>Key Ingredients:</strong> Salicylic Acid, Glycerin, Sodium
+          Lauryl Sulfate.
+        </p>
+        <p>
+          <strong>Positive Effects:</strong> Cleanses pores, removes excess oil,
+          and helps prevent acne.
+        </p>
+        <p>
+          <strong>Negative Effects:</strong> May cause dryness and irritation
+          for sensitive skin types.
+        </p>
+        <p>
+          Face washes often contain surfactants like Sodium Lauryl Sulfate,
+          which help remove dirt but can strip the skin's natural oils. Look for
+          hydrating ingredients like glycerin to balance these effects.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skin Serums -->
+    <section id="skin-serums" class="py-10 bg-gray-50 product-section">
+      <div class="container mx-auto flex flex-col items-center">
+        <h2 class="text-3xl font-semibold mb-4 text-center">Skin Serums</h2>
+        <img
+          src="./serum.jpeg"
+          alt="Skin Serums"
+          class="h-96 mb-4 rounded-lg shadow-md"
+        />
+        <p>
+          <strong>Key Ingredients:</strong> Hyaluronic Acid, Retinol, Vitamin C.
+        </p>
+        <p>
+          <strong>Positive Effects:</strong> Hydrates the skin, boosts collagen
+          production, and reduces fine lines and wrinkles.
+        </p>
+        <p>
+          <strong>Negative Effects:</strong> Overuse of retinol can cause
+          redness and peeling, especially for sensitive skin.
+        </p>
+        <p>
+          Skin serums are concentrated formulas designed to deliver active
+          ingredients deep into the skin. For best results, match the serum to
+          your specific skin concerns.
+        </p>
+      </div>
+    </section>
+
+    <!-- Lipsticks -->
+    <section id="lipsticks" class="py-10 bg-white product-section">
+      <div class="container mx-auto flex flex-col items-center">
+        <h2 class="text-3xl font-semibold mb-4 text-center">Lipsticks</h2>
+        <img
+          src="./lipstick.jpg"
+          alt="Lipsticks"
+          class="h-96 mb-4 rounded-lg shadow-md"
+        />
+        <p><strong>Key Ingredients:</strong> Lead, Carmine, Parabens.</p>
+        <p>
+          <strong>Positive Effects:</strong> Enhances lip color and can include
+          moisturizing properties.
+        </p>
+        <p>
+          <strong>Negative Effects:</strong> Long-term exposure to lead-based
+          products may pose health risks.
+        </p>
+        <p>
+          Choose lipsticks labeled as organic or natural to avoid harmful
+          chemicals and ensure safer usage.
+        </p>
+      </div>
+    </section>
+
+    <!-- Shampoos -->
+    <section id="shampoos" class="py-10 bg-gray-50 product-section">
+      <div class="container mx-auto flex flex-col items-center">
+        <h2 class="text-3xl font-semibold mb-4 text-center">Shampoos</h2>
+        <img
+          src="./shampoo.jpg"
+          alt="Shampoos"
+          class="h-96 mb-4 rounded-lg shadow-md"
+        />
+        <p><strong>Key Ingredients:</strong> Sulfates, Parabens, Keratin.</p>
+        <p>
+          <strong>Positive Effects:</strong> Cleans the scalp, strengthens hair,
+          and adds shine.
+        </p>
+        <p>
+          <strong>Negative Effects:</strong> Frequent use of sulfates can strip
+          natural oils, causing dryness and irritation.
+        </p>
+        <p>
+          Sulfate-free shampoos are often a gentler choice for maintaining the
+          hair’s natural moisture balance.
+        </p>
+      </div>
+    </section>
+
+    <!-- Sunscreens -->
+    <section id="sunscreens" class="py-10 bg-white product-section">
+      <div class="container mx-auto flex flex-col items-center">
+        <h2 class="text-3xl font-semibold mb-4 text-center">Sunscreens</h2>
+        <img
+          src="./sunscreen.jpg"
+          alt="Sunscreens"
+          class="h-96 mb-4 rounded-lg shadow-md"
+        />
+        <p>
+          <strong>Key Ingredients:</strong> Zinc Oxide, Oxybenzone, Titanium
+          Dioxide.
+        </p>
+        <p>
+          <strong>Positive Effects:</strong> Protects skin from harmful UV rays,
+          reduces risk of sunburn, and prevents premature aging.
+        </p>
+        <p>
+          <strong>Negative Effects:</strong> Some chemicals in sunscreens may
+          trigger allergic reactions or disrupt hormones.
+        </p>
+        <p>
+          Physical sunscreens containing Zinc Oxide are safer for sensitive skin
+          and provide broad-spectrum protection.
+        </p>
+      </div>
+    </section>
+
+    <!-- Body Sprays -->
+    <section id="body-sprays" class="py-10 bg-gray-50 product-section">
+      <div class="container mx-auto flex flex-col items-center">
+        <h2 class="text-3xl font-semibold mb-4 text-center">Body Sprays</h2>
+        <img
+          src="https://placehold.co/800x400"
+          alt="Body Sprays"
+          class="h-96 mb-4 rounded-lg shadow-md"
+        />
+        <p>
+          <strong>Key Ingredients:</strong> Phthalates, Alcohol, Synthetic
+          Fragrances.
+        </p>
+        <p>
+          <strong>Positive Effects:</strong> Provides long-lasting fragrance and
+          refreshes the skin.
+        </p>
+        <p>
+          <strong>Negative Effects:</strong> Prolonged exposure to phthalates
+          may interfere with hormonal balance.
+        </p>
+        <p>
+          Consider natural or hypoallergenic body sprays if you have sensitive
+          skin or concerns about chemical exposure.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white py-4 text-center">
+      <p>&copy; 2024 Cosmetic Chemical Insights. All rights reserved.</p>
+    </footer>
+  </body>
+  <script>
+    const productSects = [
+      ...document.getElementsByClassName("product-section"),
+    ];
+    const selectInput = document.getElementById("product-select");
+    selectInput.onchange = () => {
+      productSects.forEach((i) => {
+        if (i.id === selectInput.value) {
+          i.classList.remove("hidden");
+        } else {
+          i.classList.add("hidden");
+        }
+      });
+    };
+    selectInput.onchange();
+  </script>
+</html>
